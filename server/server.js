@@ -199,6 +199,6 @@ function isWin(s) {
   return null;
 }
 
-server.listen(8080, () => {
-  console.log('Listening on *');
+server.listen(8080, "192.168.100.6",() => {
+  console.log('Listening on 192.168.100.6:8080');
 });
