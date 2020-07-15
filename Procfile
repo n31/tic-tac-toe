@@ -1,1 +1,0 @@
-web: npm run babel-node ./server/server.js
